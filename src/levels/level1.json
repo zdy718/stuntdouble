@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "name": "Opening Chase",
+  "trope": "City car chase",
+  "bpm": 100,
+  "speed": 280,
+  "par": 1,
+  "grab": false,
+  "scenes": [
+    {
+      "id": "A",
+      "length": 55,
+      "obstacles": [
+        { "beat": 8, "type": "crate", "prompt": "SPACE / UP  -  JUMP" },
+        { "beat": 12, "type": "crate" },
+        { "beat": 16, "type": "crate" },
+        { "beat": 20, "type": "lowSign", "prompt": "HOLD DOWN  -  DUCK", "style": "sign" },
+        { "beat": 24, "type": "lowSign", "style": "sign" },
+        { "beat": 28, "type": "crate" },
+        { "beat": 32, "type": "lowSign", "style": "sign" },
+        { "beat": 35, "type": "crate" },
+        { "beat": 39, "type": "barrel", "prompt": "TALL ONE  -  HOLD JUMP" },
+        { "beat": 43, "type": "lowSign", "style": "sign" },
+        { "beat": 46.5, "type": "crate" },
+        { "beat": 50, "type": "crate" }
+      ]
+    },
+    {
+      "id": "B",
+      "length": 45,
+      "obstacles": [
+        { "beat": 8, "type": "crate" },
+        { "beat": 10, "type": "crate" },
+        { "beat": 14, "type": "lowSign", "style": "sign" },
+        { "beat": 16, "type": "crate" },
+        { "beat": 20, "type": "crate" },
+        { "beat": 22, "type": "crate" },
+        { "beat": 26, "type": "lowSign", "style": "sign" },
+        { "beat": 28, "type": "crate" },
+        { "beat": 32, "type": "barrel" },
+        { "beat": 36, "type": "crate" },
+        { "beat": 38, "type": "crate" },
+        { "beat": 40, "type": "crate" }
+      ],
+      "speedFactor": 1.05
+    }
+  ]
+}

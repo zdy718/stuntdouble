@@ -1,0 +1,58 @@
+{
+  "id": 2,
+  "name": "Rooftop Run",
+  "trope": "Rooftop pursuit",
+  "bpm": 110,
+  "speed": 310,
+  "par": 2,
+  "grab": false,
+  "scenes": [
+    {
+      "id": "A",
+      "length": 61,
+      "obstacles": [
+        { "beat": 8, "type": "gap", "prompt": "JUMP THE GAP" },
+        { "beat": 11, "type": "lowSign", "style": "laundry" },
+        { "beat": 14, "type": "gap" },
+        { "beat": 17.5, "type": "lowSign", "style": "laundry" },
+        { "beat": 20.5, "type": "gap" },
+        { "beat": 23.5, "type": "crate", "style": "chimney" },
+        { "beat": 26.5, "type": "gap" },
+        { "beat": 30, "type": "lowSign", "style": "laundry" },
+        { "beat": 33, "type": "gap" },
+        { "beat": 36.5, "type": "gap" },
+        { "beat": 40, "type": "lowSign", "style": "laundry" },
+        { "beat": 42, "type": "lowSign", "style": "laundry" },
+        { "beat": 44, "type": "crate", "style": "chimney" },
+        { "beat": 46, "type": "crate", "style": "chimney" },
+        { "beat": 49, "type": "gap" },
+        { "beat": 52.5, "type": "lowSign", "style": "laundry" },
+        { "beat": 55.5, "type": "gap" }
+      ]
+    },
+    {
+      "id": "B",
+      "length": 56,
+      "obstacles": [
+        { "beat": 8, "type": "gap", "width": 210 },
+        { "beat": 11, "type": "crate", "style": "chimney" },
+        { "beat": 13.5, "type": "lowSign", "style": "antenna" },
+        { "beat": 15.5, "type": "gap", "width": 210 },
+        { "beat": 19, "type": "lowSign", "style": "antenna" },
+        { "beat": 21, "type": "gap", "width": 210 },
+        { "beat": 25, "type": "gap" },
+        { "beat": 28, "type": "lowSign", "style": "laundry" },
+        { "beat": 30, "type": "crate", "style": "chimney" },
+        { "beat": 32, "type": "crate", "style": "chimney" },
+        { "beat": 34.5, "type": "lowSign", "style": "antenna" },
+        { "beat": 36.5, "type": "gap", "width": 210 },
+        { "beat": 39.5, "type": "crate", "style": "chimney" },
+        { "beat": 42, "type": "lowSign", "style": "antenna" },
+        { "beat": 44, "type": "gap", "width": 210 },
+        { "beat": 47, "type": "gap", "width": 210 },
+        { "beat": 50.5, "type": "lowSign", "style": "antenna" }
+      ],
+      "speedFactor": 1.05
+    }
+  ]
+}
